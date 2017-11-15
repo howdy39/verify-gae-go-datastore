@@ -7,4 +7,8 @@ import (
 
 func init() {
 	http.HandleFunc("/", gae.IndexHandler)
+	http.HandleFunc("/goon", gae.GoonHandler)
+	http.HandleFunc("/goonget", gae.GoongetHandler)
+	http.HandleFunc("/mem", gae.MemHandler)
+
 }
