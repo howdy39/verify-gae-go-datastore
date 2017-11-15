@@ -1,0 +1,8 @@
+application: gae-go-186008
+version: verify-gae-go-datastore
+runtime: go
+api_version: go1.8
+
+handlers:
+- url: /.*
+  script: _go_app
