@@ -11,4 +11,5 @@ func init() {
 	http.HandleFunc("/goonget", gae.GoongetHandler)
 	http.HandleFunc("/mem", gae.MemHandler)
 
+	http.HandleFunc("/cheat-save", gae.CheatSaveHandler)
 }
